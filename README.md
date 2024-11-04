@@ -1,7 +1,7 @@
 # CPP Primer
 
 ## Description
-`cpp_primer` is a C++ sample project that provides additional examples and detailed notes to enhance understanding of various C++ programming concepts. The project is organized into multiple chapters, each focusing on different topics covered in the *C++ Primer 5th Edition* book. By providing practical code samples, `cpp_primer` serves as an additional resource for beginner C++ developers. The project is built using CMake, ensuring a straightforward and platform-independent build process.
+`cpp_primer` is a C++ sample project that provides additional examples and notes to enhance understanding of various C++ programming concepts. The project is organized into multiple chapters, each focusing on different topics covered in the *C++ Primer 5th Edition* book. By providing practical code samples, `cpp_primer` serves as an additional resource for beginner C++ developers. The project is built using CMake, ensuring a straightforward and platform-independent build process.
 
 ## Usage
 ### Building the Project
