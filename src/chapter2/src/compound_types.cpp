@@ -121,3 +121,27 @@ int main()
 
 //     return 0;
 // }
+
+/****************************************************************
+ *                                                              *
+ *              Example 2.4 (Pointer to Array)                  *    
+ *                                                              * 
+ ****************************************************************/
+
+// void greet() 
+// {
+//     std::cout << "Hello World!" << std::endl;
+// }
+
+// int main() 
+// {
+//     void (*funcPtr)();
+
+//     // Assign the function's address to the pointer
+//     funcPtr = &greet; // OR funcPtr = greet;
+
+//     // Call the function using the pointer
+//     (*funcPtr)();
+
+//     return 0;
+// }
