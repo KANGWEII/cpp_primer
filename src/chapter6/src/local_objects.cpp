@@ -4,6 +4,9 @@
 int static_obj()
 {
     // Each time the function is called, stat is incremented by 1 and its new value is returned.
+    /* When a variable is declared as static, space for it gets allocated for the lifetime of the program. Even if the function is called 
+       multiple times, space for the static variable is allocated only once and the value of the variable in the previous call gets carried 
+       through the next function call. */
     // The static variable retains its value between function calls.
     static int stat = 0;
     return ++stat;
