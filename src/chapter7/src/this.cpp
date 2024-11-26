@@ -10,7 +10,7 @@ public:
     }
 
     void print() {
-        std::cout << "x = " << this->x << std::endl; // No ambiguity here, so this->x is optional
+        std::cout << "x = " << this->x << std::endl; // No ambiguity here, so this-> is optional
     }
 };
 
