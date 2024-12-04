@@ -1,0 +1,1 @@
+add_executable(smart_pointer src/smart_pointer.cpp)
