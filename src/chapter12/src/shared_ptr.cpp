@@ -17,9 +17,23 @@ int main() {
   p2.reset();
   std::cout << "p1 reference count (after p2 reset): " << p1.use_count()
             << std::endl;
+
+  /****************************************************************
+   *                         weak_ptr                             *
+   ****************************************************************/
+
   std::weak_ptr<int> wp = p1;
   std::cout << "p1 reference count (after weak ptr initialization): "
             << p1.use_count() << std::endl;
+
+  /* The smart pointer constructors that take pointers are explicit. Cannot
+    implicitly convert a buit-in pointer to smart pointer */
+
+  // Error: cannot convert int* to shared_ptr<int>
+  // std::shared_ptr<int> p3 = new int(1024);  
+  
+  // Ok: explicit conversion from int* to shared_ptr<int>
+  // std::shared_ptr<int> p3(new int(1024));
 
   return 0;
 }

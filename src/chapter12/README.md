@@ -3,7 +3,9 @@
 ## Overview
 
 ## Structure
-1. **Smart Pointer**
+1. [**Shared Pointer**](./src/shared_ptr.cpp)
+2. [**Unique Pointer**](./src/unique_ptr.cpp)
+3. [**Dynamic Arrays**](./src/dynamic_arrays)
 
 ## Q&A
 ### Question 1
@@ -58,3 +60,10 @@
 **A:** When the last `shared_ptr` pointing to an object is destroyed, the `shared_ptr` class automatically destroys the object to which that `shared_ptr` points. It does so through a member function known as a **destructor**.
 
 ---
+
+### Question 9
+**Q:** When to use `std::unique_ptr`, raw dynamic pointers, or `std::vector`?  
+**A:** 
+- Use std::vector for most dynamic array use cases because of its safety and flexibility.
+- Use std::unique_ptr if you need a fixed-size dynamic array with automatic cleanup.
+- Avoid raw pointers unless absolutely necessary.
