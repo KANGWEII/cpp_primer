@@ -72,5 +72,3 @@
 ### Question 10
 **Q:** What is allocator class?  
 **A:** Allocator is memory management tool for low level operations. It is being used in STL containers by default, for example, `std::vector`, uses it manage its memory. Allocator requires manual construction (construct) and destruction (destroy) of objects, leaving memory cleanup entirely to the developer.
-
----
