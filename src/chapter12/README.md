@@ -5,7 +5,7 @@
 ## Structure
 1. [**Shared Pointer**](./src/shared_ptr.cpp)
 2. [**Unique Pointer**](./src/unique_ptr.cpp)
-3. [**Dynamic Arrays**](./src/dynamic_arrays)
+3. [**Dynamic Arrays**](./src/dynamic_arrays.cpp)
 
 ## Q&A
 ### Question 1
