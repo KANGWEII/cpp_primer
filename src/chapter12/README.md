@@ -1,11 +1,10 @@
 # Chapter 12 (Dynamic Memory)
 
-## Overview
-
 ## Structure
 1. [**Shared Pointer**](./src/shared_ptr.cpp)
 2. [**Unique Pointer**](./src/unique_ptr.cpp)
 3. [**Dynamic Arrays**](./src/dynamic_arrays.cpp)
+4. [**Allocator Class**](./src/allocator.cpp)
 
 ## Q&A
 ### Question 1
@@ -67,3 +66,11 @@
 - Use std::vector for most dynamic array use cases because of its safety and flexibility.
 - Use std::unique_ptr if you need a fixed-size dynamic array with automatic cleanup.
 - Avoid raw pointers unless absolutely necessary.
+
+---
+
+### Question 10
+**Q:** What is allocator class?  
+**A:** Allocator is memory management tool for low level operations. It is being used in STL containers by default, for example, `std::vector`, uses it manage its memory. Allocator requires manual construction (construct) and destruction (destroy) of objects, leaving memory cleanup entirely to the developer.
+
+---
