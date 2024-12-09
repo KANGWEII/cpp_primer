@@ -45,3 +45,9 @@ Avoid Explicit Copy Constructors If:
 - You want to enforce immutability or prohibit copying.
 
 ---
+
+### Question 5
+**Q:** What is copy-assignment operator?  
+**A:** A special operator in C++ that allows one object to be assigned to another object of the same type. Unliike copy constructor, copy-assignment operator is used when you already have two existing objects, and you want to copy the contents of one object into another. 
+
+---
