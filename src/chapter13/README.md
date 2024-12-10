@@ -67,5 +67,5 @@ Avoid Explicit Copy Constructors If:
 ---
 
 ### Question 7
-**Q:** What is move constructor?  
+**Q:** What is move-assignment operator?  
 **A:** A special assignment operator used to transfer resources from one object to another without performing a deep copy. It works similarly to the move constructor but is invoked when an object is being assigned an rvalue (temporary object) instead of being initialized.
