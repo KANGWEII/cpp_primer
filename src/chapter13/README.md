@@ -2,6 +2,9 @@
 
 ## Structure
 1. [**Copy Constructor**](./src/copy_constructor.cpp)
+2. [**Copy Assignment Operator**](./src/copy_assgm_operator.cpp)
+3. [**Move Constructor**](./src/move_constructor.cpp)
+2. [**Move Assignment Operator**](./src/move_assgm_operator.cpp)
 
 ## Q&A
 ### Question 1
@@ -51,3 +54,18 @@ Avoid Explicit Copy Constructors If:
 **A:** A special operator in C++ that allows one object to be assigned to another object of the same type. Unliike copy constructor, copy-assignment operator is used when you already have two existing objects, and you want to copy the contents of one object into another. 
 
 ---
+
+### Question 6
+**Q:** What is move constructor?  
+**A:** A move constructor in C++ is a special constructor used to transfer ownership of resources from one object to another without performing a deep copy. The move constructor is defined with an rvalue reference parameter, allowing it to bind to temporary (rvalue) objects.
+| Copy Constructor                        | Move Constructor                                 |
+| --------------------------------------- | ------------------------------------------------ |
+| `const ClassName&` (lvalue reference)	  | `ClassName&&` (rvalue reference)                 |
+| Deep Copy                               | Ownership transfer                               |
+| Used for copying objects                | Used for temporary objects or ownership transfer |
+
+---
+
+### Question 7
+**Q:** What is move constructor?  
+**A:** A special assignment operator used to transfer resources from one object to another without performing a deep copy. It works similarly to the move constructor but is invoked when an object is being assigned an rvalue (temporary object) instead of being initialized.
