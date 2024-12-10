@@ -18,6 +18,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/${CMAKE_INSTALL_BINDIR}
 
 add_subdirectory(src/chapter2)
 add_subdirectory(src/chapter3)
+add_subdirectory(src/chapter4)
 add_subdirectory(src/chapter6)
 add_subdirectory(src/chapter7)
 add_subdirectory(src/chapter8)
