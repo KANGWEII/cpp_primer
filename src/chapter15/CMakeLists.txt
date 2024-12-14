@@ -1,1 +1,4 @@
-add_executable( src/.cpp)
+add_executable(basic_oop src/basic_oop.cpp)
+add_executable(hidden_virtual src/hidden_virtual.cpp)
+add_executable(inherited_constructors src/inherited_constructors.cpp)
+add_executable(container_inheritance src/container_inheritance.cpp)
