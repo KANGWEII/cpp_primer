@@ -9,6 +9,8 @@
 6. [**`this` pointer**](./src/this.cpp)
 7. [**Method Chaining**](./src/method_chaining.cpp)
 
+For a deeper dive into how the example works, refer to this [link](https://docs.google.com/document/d/1P1cmHTxp7I1ECu48RmI5G-nX9TynReIZ4KH6Z8gEl9E/edit?usp=sharing)
+
 ## Q&A
 ### Question 1
 **Q:** What is abstraction?  
