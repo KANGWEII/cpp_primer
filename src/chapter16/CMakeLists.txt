@@ -1,0 +1,3 @@
+add_executable(function_template src/function_template.cpp)
+add_executable(class_template src/class_template.cpp)
+add_executable(variadic_template src/variadic_template.cpp)

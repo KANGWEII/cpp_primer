@@ -1,0 +1,1 @@
+add_executable(io_class src/io_class.cpp)

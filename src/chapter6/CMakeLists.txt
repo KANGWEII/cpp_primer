@@ -1,0 +1,2 @@
+add_executable(local_objects src/local_objects.cpp)
+add_executable(argument_passing src/argument_passing.cpp)
