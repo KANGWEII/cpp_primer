@@ -32,4 +32,3 @@ After building the project, run the compiled examples located in the `/bin` dire
 ```sh
 $ ./bin/compound_types
 ```
->>>>>>> 4ccc969 (Add README)
