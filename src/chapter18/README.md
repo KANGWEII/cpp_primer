@@ -35,3 +35,9 @@
 ### Question 5
 **Q:** What is catch-all handler `catch (...)`?  
 **A:** A basic catch-all handler is a `catch (...)` block that catches any type of exception, regardless of its specific type, including exceptions that are not derived from `std::exceptions`.
+
+---
+
+### Question 6
+**Q:** What are the exceptions derived from `std::exceptions`?  
+**A:** <img src="./image/cpp_std_exceptions.png"/>
